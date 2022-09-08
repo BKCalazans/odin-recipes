@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF8D9;
+}
+
+nav {
+    height: 110px;
+    width: 100%;
+    background-color: #EBA83A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .title {
+    font-size: 50px;
+    font-family: 'Concert One';
+    color: #BB371A
+}
+
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+.recipe-box {
+    width:272px;
+    height:272px;
+    border-radius:20px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-shadow: 0px 5px 5px rgb(136, 136, 136);
+    margin: 0px 30px;
+}
+
+.recipe-box:hover {
+    border: 5px solid #BB371A;
+}
+
+.recipe-box h1 {
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    margin: 0px 0px 15px 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BB371A;
+    border-radius: 5px;;
+    padding:5px;
+
+}
+
+#rb1 {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/43/2020/05/07/Good-Old-Fashioned-Pancakes-2000.jpg&w=272&h=272&c=sc&poi=face&q=60&orient=true);
+}
+
+#rb2 {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/43/2020/08/26/4539284_original-2000.jpg&w=272&h=272&c=sc&poi=face&q=60&orient=true);
+}
+
+#rb3 {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/43/2022/05/19/8057179-homemade-sloppy-joes-Toni-DeSantis-1x1-1.jpg&w=272&h=272&c=sc&poi=[1040,1260]&q=60&orient=true);
+}
